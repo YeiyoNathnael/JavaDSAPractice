@@ -1,0 +1,18 @@
+Stack
+Definition: an ordered group of homogenous items.
+The removal of existing items and the addition of new ones can only take place on the top of the stack.
+
+Operations: 
+
+- Push : adds to the top of the stack.
+- Pop : takes the top element off the stack. 
+- MakeEmpty : makes the stack empty.
+- IsEmpty : checks if the stack is empty.
+- IsFull : checks if the stack is full.
+- Top : returns a copy of the top element.
+
+Note:
+I will be attempting to implement the following featues using java, and do some algorithms related to stacks.
+
+
+
