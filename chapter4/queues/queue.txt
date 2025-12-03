@@ -1,0 +1,14 @@
+Queue
+Definition: A queue is an ordered group of homogeneous items in which new items are added at one end and removed the other end.
+Its a first in first out system.
+
+Operations:
+- Clear
+- IsEmpty
+- IsFull
+- Enqueue
+- Dequeue
+- firstEl
+
+
+Ill be attempting to recreate a generic queue class, a generic circular queue and solve some queue algorithms.
