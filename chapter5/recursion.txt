@@ -1,0 +1,33 @@
+Recursive call: a method call in which the method being called is the same as the one making it.
+
+
+Recursion can be direct, where a method directly calls itself, or indirectly, where achain of two or more method calls return to the original calling method.
+
+Key Ideas in recursion: 
+------------------------------------------
+- Base Case(Anchor)
+- General Case (recursive case) 
+- Recursive algorithm
+
+
+Finding a recursive solution:
+-------------------------------------------
+- Each successive recursive call should bring you closer to a well known state.
+- That state is cakked base case, and can be expressed without need for recursion.
+- Each recursive algorithm must have at least one base case as well as a general case.
+- The general format for many recursive functions look as such:
+
+	if( some case for a known state) // base case
+		solution statement
+	else				 // general case
+		recursive function call  // recursion step
+
+
+Three-Question Method of verifying recursive functions:
+----------------------------------------------
+
+✓ Base-Case Question : Is there a non-recursive way out of the function?
+✓ Smaller-Case Question: Does each recursive function involve a smaller case of the original problem.
+✓ General-Case Question: Assuming each recursion works, does the whole function work correctly?
+
+
